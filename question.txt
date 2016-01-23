@@ -1,0 +1,5 @@
+---
+Title: Question
+Tag: Example
+---
+This is a new question.

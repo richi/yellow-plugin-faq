@@ -1,0 +1,6 @@
+---
+Title: FAQ
+Template: faqpages
+Description: Faq
+---
+This page is automatically generated.
