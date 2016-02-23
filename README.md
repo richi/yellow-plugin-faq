@@ -15,7 +15,7 @@ How to install the FAQ plugin?
 5. Download [page-new-faq.txt](page-new-faq.txt?raw=true), copy it into your `system/config` folder.
 6. Create a new folder '4-faq' in your `content` folder.
 7. Add [page.txt](page.txt?raw=true), [question.txt](question.txt?raw=true) and [sidebar.txt](sidebar.txt?raw=true) to your `/content/4-faq` folder.
-8. Add the keys `FaqFilter: FAQ`, `FaqListTitle: by Title`, `FaqListModified: by Date`, `FaqTag: Tags:` to your `system/config/language-*.ini` files.
+8. Download [language-faq-en.ini](language-faq-en.ini?raw=true), copy it into your `system/config` folder.<br>(As an alternative, you can add the keys `FaqFilter: FAQ`, `FaqListTitle: by Title`, `FaqListModified: by Date`, `FaqTag: Tags:` to your `system/config/language-*.ini` files.)
 
 
 To uninstall delete those files.
@@ -51,7 +51,3 @@ By default, the questions are sorted by title. To overwrite this behaviour use `
     [by Date](/faq/list:modified/)
     [by Title](/faq/list:title/)
 
-License
--------
-
-[WTFPL](http://www.wtfpl.net)

@@ -1,4 +1,6 @@
 <?php
+// Source: https://github.com/richi/
+// Most lines of this code are (c) 2013-2016 Datenstrom, http://datenstrom.se
 // This file may be used and distributed under the terms of the public license.
 
 // FAQ plugin
