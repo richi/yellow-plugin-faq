@@ -1,4 +1,4 @@
-FAQ plugin 0.1.2
+FAQ plugin 0.1.3
 ================
 A FAQ plugin for [Yellow](https://github.com/datenstrom/yellow/). 
 

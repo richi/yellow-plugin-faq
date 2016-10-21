@@ -6,7 +6,7 @@
 // FAQ plugin
 class YellowFaq
 {
-	const Version = "0.1.2";
+	const Version = "0.1.3";
 	var $yellow;			//access to API
 	
 	// Handle initialisation
