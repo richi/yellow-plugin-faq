@@ -1,4 +1,4 @@
-FAQ plugin 0.1.1
+FAQ plugin 0.1.2
 ================
 A FAQ plugin for [Yellow](https://github.com/datenstrom/yellow/). 
 
@@ -6,26 +6,20 @@ Users or customers have tons of common questions that have to be answered over a
 
 Thanks to the excellent work of the Yellow guys, putting this together was not much more than a copy and paste job.
 
-How to install the FAQ plugin?
-------------------------------
-1. Download and install [Yellow](https://github.com/datenstrom/yellow/).  
-2. Download [faq.php](faq.php?raw=true), copy it into your `system/plugins` folder.  
-3. Download [faq.html](faq.html?raw=true) and [faqpages.html](faqpages.html?raw=true), copy them into your `system/themes/templates` folder.  
-4. Download [content-faq.php](content-faq.php?raw=true) and [content-faqpages.php](content-faqpages.php?raw=true), copy them into your `system/themes/snippets` folder.  
-5. Download [page-new-faq.txt](page-new-faq.txt?raw=true), copy it into your `system/config` folder.
-6. Create a new folder '4-faq' in your `content` folder.
-7. Add [page.txt](page.txt?raw=true), [question.txt](question.txt?raw=true) and [sidebar.txt](sidebar.txt?raw=true) to your `/content/4-faq` folder.
-8. Download [language-faq-en.ini](language-faq-en.ini?raw=true), copy it into your `system/config` folder.<br>(As an alternative, you can add the keys `FaqFilter: FAQ`, `FaqListTitle: by Title`, `FaqListModified: by Date`, `FaqTag: Tags:` to your `system/config/language-*.ini` files.)
+How to install?
+---------------
+1. [Download and install Yellow](https://github.com/datenstrom/yellow/).
+2. [Download plugin](https://github.com/richi/yellow-plugin-faq/archive/master.zip). If you are using Safari, right click and select 'Download file as'.
+3. Copy `master.zip` into your `system/plugins` folder.
 
+To uninstall delete the plugin files.
 
-To uninstall delete those files.
-
-How to use the FAQ plugin?
---------------------------
+How to use?
+-----------
 The main FAQ page will show the list of questions and is available on your website as `http://website/faq/`. To create a new question, add a new file to the faq folder.
 
-How to configure the FAQ plugin?
---------------------------------
+How to configure?
+-----------------
 You can use shortcuts to show information about the FAQ:
 
 `[faqarchive LOCATION]` for a list of months  
