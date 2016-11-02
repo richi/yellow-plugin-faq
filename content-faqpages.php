@@ -1,4 +1,6 @@
-<div class="content main">
+<div class="content">
+<?php $yellow->snippet("sidebar") ?>
+<div class="main">
 <h1><?php echo $yellow->page->getHtml("titleFaq") ?></h1>
 <ul>
 <?php foreach($yellow->page->getPages() as $page): ?>
@@ -12,4 +14,5 @@
 <?php endforeach ?>
 </ul>
 <?php $yellow->snippet("pagination", $yellow->page->getPages()) ?>
+</div>
 </div>
